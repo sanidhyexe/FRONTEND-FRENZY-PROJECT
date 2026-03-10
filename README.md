@@ -2,6 +2,10 @@
 
 EduTrack is a modern student dashboard built with React + Vite + Tailwind CSS. It includes authentication, dashboard analytics, task and message management, editable profile settings, dark mode, and an in-app AI assistant.
 
+## Preview
+
+![EduTrack Website Screenshot](MEDIA/image.png)
+
 ## Features
 
 - Login flow with session persistence (stays logged in on refresh during the same browser session)
@@ -106,7 +110,3 @@ src/
 - This is a frontend demo project with local, mock authentication.
 - No backend or real AI API is connected.
 - App data is persisted in browser storage only.
-
-## License
-
-This project is for educational/demo use.

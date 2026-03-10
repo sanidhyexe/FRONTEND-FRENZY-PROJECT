@@ -57,9 +57,9 @@ const Header = ({ userName, onLogout, onOpenProfile, onNavigateTab, searchQuery,
                 <div className="relative w-64">
                     <div className="relative group flex items-center">
                         <MdSearch className="absolute left-3 text-slate-400 group-focus-within:text-blue-500 transition-colors text-xl" />
-                        <input
+                                                                                                                                                                                                                                                                                                                                                                    <input
                             value={searchQuery}
-                            onFocus={() => setShowSearchDropdown(true)}
+                            onFocus={() => setShowSearchDropdown(true)}                                             
                             onBlur={() => {
                                 window.setTimeout(() => {
                                     setShowSearchDropdown(false);
